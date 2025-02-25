@@ -1,3 +1,6 @@
 [submodule "finance-analyzer-client"]
 	path = finance-analyzer-client
 	url = https://github.com/DKMFzF/finance-analyzer-client.git
+[submodule "finance-analyzer-api-getway"]
+	path = finance-analyzer-api-getway
+	url = https://github.com/DKMFzF/finance-analyzer-api-getway.git
