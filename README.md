@@ -1,6 +1,6 @@
-# AI Финансовый Анализатор
+# AI Financial Analyzer
 
-**AI Финансовый Анализатор** — это интеллектуальная платформа для анализа расходов и прогнозирования финансового состояния. Она предоставляет пользователям детализированные отчёты, основанные на их транзакциях, и помогает планировать бюджет с использованием AI-алгоритмов.
+**AI Financial Analyzer** is an intelligent platform for cost analysis and financial forecasting. It provides users with detailed reports based on their transactions and helps them plan their budget using AI algorithms.
 
 <h2 id="section-author">
   Author
