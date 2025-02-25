@@ -4,3 +4,6 @@
 [submodule "finance-analyzer-api-getway"]
 	path = finance-analyzer-api-getway
 	url = https://github.com/DKMFzF/finance-analyzer-api-getway.git
+[submodule "finance-analyzer-auth-microservice"]
+	path = finance-analyzer-auth-microservice
+	url = https://github.com/DKMFzF/finance-analyzer-auth-microservice.git
