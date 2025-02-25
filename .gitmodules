@@ -10,3 +10,6 @@
 [submodule "finance-analyzer-users-microservice"]
 	path = finance-analyzer-users-microservice
 	url = https://github.com/DKMFzF/finance-analyzer-users-microservice.git
+[submodule "finance-analyzer-notification-microservice"]
+	path = finance-analyzer-notification-microservice
+	url = https://github.com/DKMFzF/finance-analyzer-notification-microservice.git
