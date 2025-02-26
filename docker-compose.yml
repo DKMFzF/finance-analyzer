@@ -37,8 +37,8 @@ services:
     networks:
       - app-network
 
-  user-service:
-    build: ./user-service
+  finance-analyzer-users-microservice:
+    build: ./finance-analyzer-users-microservice
     ports:
       - "4000:4000"
     environment:
@@ -54,22 +54,22 @@ services:
     networks:
       - app-network
 
-  auth-service:
-    build: ./auth-service
+  finance-analyzer-auth-microservice:
+    build: ./finance-analyzer-auth-microservice
     ports:
       - "3000:3000"
     depends_on:
-      - user-service
+      - finance-analyzer-users-microservice
     networks:
       - app-network
 
-  api-gateway:
-    build: ./api-gateway
+  finance-analyzer-api-getway:
+    build: ./finance-analyzer-api-getway
     ports:
       - "5000:5000"
     depends_on:
-      - auth-service
-      - user-service
+      - finance-analyzer-auth-microservice
+      - finance-analyzer-users-microservice
       - redis
     environment:
       - REDIS_HOST=redis
@@ -86,7 +86,7 @@ services:
       - app-network
 
   notification-service:
-    build: ./notification-service
+    build: ./finance-analyzer-notification-microservice
     environment:
       KAFKA_BROKERS: kafka:9092
     depends_on:
